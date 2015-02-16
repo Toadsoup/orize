@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Title This Page :)</title>
+
+        <!-- jQuery: Grab Google CDN jQuery. fall back to local if necessary -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script>!window.jQuery && document.write('<script src="jquery-1.4.1.min.js"><\/script>')</script>
+
+        <!-- The raptorize file  -->
+        <script src="jquery.orize.1.0.js"></script>
+
+        <script type="text/javascript">
+            $(window).load(function () {
+                $('.hodor').orize({'orizer': 'hodorize'});
+                $('.raptor').orize({'orizer': 'raptorize'});
+                $('.cage').orize({'orizer': 'cagorize'});
+                $('.trogdor').orize({'orizer': 'trogdorize'});
+
+                // For The Konami Code Version
+                $('body').orize({
+                    'enterOn': 'konami-code',
+                    'orizer': 'raptorize'
+                }).orize({
+                    'enterOn': 'timer',
+                    'delayTime': 2000
+                });
+
+                // For the Timer version
+                // $('body').orize({
+                //     'enterOn': 'timer',
+                //     'delayTime': 2000
+                // });
+            });
+        </script>	
+
+    </head>
+    <body>
+        <h1>Hey There! Welcome to the orizer page.</h1>
+
+        <p><a href="#" class="raptor">Click me</a> to activate the orize plugin in raptor mode.</p>
+        <p><a href="#" class="hodor">Click me</a> to activate the orize plugin in hodor mode.</p>
+        <p><a href="#" class="cage">Click me</a> to activate the orize plugin in cage mode.</p>
+        <p><a href="#" class="trogdor">Click me</a> to activate the orize plugin in trogdor mode.</p>
+        <p>You can also use the Konami-Code (on your keyboard type &uarr; &uarr; &darr; &darr; &larr; &rarr; &larr; &rarr; B A)</p>
+        <p>You can also wait around for a specific amount of time from pageload.</p>
+    </body>
+</html>
