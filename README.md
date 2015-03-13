@@ -9,7 +9,7 @@ This will orize your site with a jquery plugin based on raptorize.
 
 -Trogdor
 
-
+## [Demo on Heroku](http://orize.herokuapp.com/index.html) 
 
 
 ##Usage  

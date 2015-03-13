@@ -1,0 +1,20 @@
+.content{
+	min-width: 300px;
+	width: 50%;
+	margin: 10px auto;
+	padding: 1em;
+	border: 1px black solid;
+	border-radius: 1em;
+	background: linear-gradient( to bottom, #fff, #ccc);
+}
+
+.content h1{
+	font-family: sans-serif;
+	color: #444;
+	font-size: 1.75em;
+}
+
+.content p {
+	font-size: 1.1em;
+	line-height: 1.1em;
+}

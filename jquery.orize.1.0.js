@@ -39,7 +39,7 @@
             var raptorAudioMarkup = '<audio id="el' + options.orizer +'Shriek" preload="auto"><source src="kit/' + options.orizer + '/sound.mp3" /><source src="kit/' + options.orizer + '/sound.ogg" /></audio>';
             var locked = false;
 
-            //Append Raptor and Style
+            //Append Orize and Style
             $('body').append(raptorImageMarkup);
             if (audioSupported) {
                 $('body').append(raptorAudioMarkup);
